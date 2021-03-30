@@ -1,0 +1,74 @@
+Script started on Thu Feb 11 19:56:15 2021
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ s[Kls
+Americorps				dog
+Applications				echo.txr
+Artboard 1.png				eclipse
+CLionProjects				eclipse-workspace
+Creative Cloud Files			errors.log
+Desktop					file.txt
+Documents				file1
+Downloads				filewithlots.txt
+IdeaProjects				flutter
+Library					get-pip.py
+Movies					hosts.txt
+Music					its.krei@gmail.com Creative Cloud Files
+MyFirstGame				jetbrains-toolbox-install
+Pictures				log
+Public					ls.out
+PycharmProjects				practice
+VirtualBox VMs				test_proj
+days					typescript
+development				who.out
+bash-3.2$ cd C[K/Clion[K[K[K[K[KClion[K[K[K[KL[K[K[KCLionProjects/
+bash-3.2$ ls
+UrlParser	untitled
+bash-3.2$ ls[K[Kcd UrlParser/
+bash-3.2$ g++ main.cpp
+bash-3.2$ ls
+CMakeLists.txt		cmake-build-debug
+a.out			main.cpp
+bash-3.2$ /[K./a.out[K[K[Kout
+Welcome to URL Parser 
+Enter a URL: https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+
+Protocol:     https
+Domain:       cs.utdallas.edu
+Port:         80
+Filepath:     directory/faculty/people.html
+Parameters:   name=Robert
+bash-3.2$ ./a.out
+Welcome to URL Parser 
+Enter a URL: httpz://cs.utdallas.edu:80000/people.html?name=Robert
+
+httpz is not a valid protocol
+port number must be between 1 and 65535 
+bash-3.2$ ./a.out
+Welcome to URL Parser 
+Enter a URL: https://www.google.com:20/maps.html?drive=safe
+
+Protocol:     https
+Domain:       www.google.com
+Port:         20
+Filepath:     maps.html
+Parameters:   drive=safe
+bash-3.2$ ./a.out
+Welcome to URL Parser 
+Enter a URL: http://www.google.com/findmygirlfriend.html
+
+Protocol:     http
+Domain:       www.google.com
+Filepath:     findmygirlfriend.html
+bash-3.2$ ./a.out
+Welcome to URL Parser 
+Enter a URL: stonks://www.coolmemes.com:3000000/TacoTuesday.htm?butts=&stuff
+
+stonks is not a valid protocol
+port number must be between 1 and 65535 
+bash-3.2$ exit
+exit
+
+Script done on Thu Feb 11 19:59:02 2021
